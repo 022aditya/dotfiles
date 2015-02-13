@@ -2,3 +2,10 @@
 cmap w!! w !sudo tee > /dev/null %
 
 set backspace=indent,eol,start
+
+
+" tabs to spaces etc.
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
