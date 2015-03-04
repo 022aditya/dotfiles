@@ -1,0 +1,12 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApplySyntax",
+		"EditorConfig",
+		"Package Control",
+		"SideBarEnhancements"
+	]
+}

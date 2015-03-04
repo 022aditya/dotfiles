@@ -1,0 +1,26 @@
+{
+	"font_size": 10,
+    
+    // If enabled, will highlight any line with a caret
+    "highlight_line": true,
+    
+    // By default, shift+tab will only unindent if the selection spans
+    // multiple lines. When pressing shift+tab at other times, it'll insert a
+    // tab character - this allows tabs to be inserted when tab_completion is
+    // enabled. Set this to true to make shift+tab always unindent, instead of
+    // inserting tabs.
+    "shift_tab_unindent": true,
+    
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true,    
+
+    // Show folders in the side bar in bold
+    "bold_folder_labels": true,
+
+    "ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true
+}
