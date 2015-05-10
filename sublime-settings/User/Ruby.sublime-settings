@@ -1,13 +1,13 @@
 {
 	"extensions":
 	[
+		"Vagrantfile",
+		"jbuilder",
+		"simplecov",
+		"thor",
 		"rake",
 		"rb",
-		"jbuilder",
-		"Vagrantfile",
-		"thor",
-		"simplecov",
-		"podspec",
-		"rabl"
+		"rabl",
+		"podspec"
 	]
 }
