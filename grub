@@ -1,0 +1,9 @@
+# For Fedora 25
+
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT="Fedora (4.7.4-200.fc24.x86_64) 25 (Workstation Edition)"
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora/root rd.lvm.lv=fedora/swap rhgb quiet rd.driver.blacklist=nouveau i915.enable_psr=0 acpi_backlight=vendor"
+GRUB_DISABLE_RECOVERY="true"
