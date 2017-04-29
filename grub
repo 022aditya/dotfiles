@@ -1,4 +1,5 @@
 # For Fedora 25
+# location: /etc/default/grub
 
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
